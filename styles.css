@@ -132,13 +132,6 @@ h1 {
   color: var(--muted);
 }
 
-.placeholder {
-  padding: 16px;
-  border-left: 4px solid var(--accent);
-  background: #eef7f5;
-  color: var(--text);
-}
-
 @media (max-width: 640px) {
   .page {
     width: min(100% - 24px, 920px);
