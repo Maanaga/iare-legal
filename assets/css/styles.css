@@ -1,12 +1,12 @@
 :root {
-  color-scheme: light;
-  --background: #f7f7f4;
-  --surface: #ffffff;
-  --text: #202124;
-  --muted: #666d73;
-  --border: #dadde1;
-  --accent: #0f766e;
-  --accent-dark: #115e59;
+  color-scheme: dark;
+  --background: #000000;
+  --surface: #111111;
+  --text: #ffffff;
+  --muted: #b8b8b8;
+  --border: #2f2f2f;
+  --accent: #ffffff;
+  --accent-dark: #ffffff;
 }
 
 * {
@@ -75,6 +75,7 @@ h1 {
 
 .document-link:hover {
   border-color: var(--accent);
+  background: #181818;
 }
 
 .document-link span {
